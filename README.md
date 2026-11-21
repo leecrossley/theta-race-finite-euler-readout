@@ -2,6 +2,8 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24413207.svg)](https://doi.org/10.5281/zenodo.24413207)
 
+This result is now maintained in [theta-host-split-inert-race](https://github.com/leecrossley/theta-host-split-inert-race/tree/main/results/theta-race-finite-euler-readout). This repository is archived and keeps its releases and DOI.
+
 At every good odd rational prime $`p`$ of the 547/727 field, the signed prime-ideal counts at **three finite window starts** determine the entire local Euler denominator. The starts are $`(p-1)/4`$, $`p/4`$ and $`(p+1)/4`$. All nonzero terms in these measurements have ideal norm at most $`p`$. The reconstruction uses the prime modulo 16 and tolerates absolute error below $`(\log p)/p`$ in each unnormalised score. [Theorem and proof](PROOF.md)
 
 For example, the three counts give trace $`-8`$ at 31 and trace $`8`$ at 47. Their denominators are $`(1+T)^8`$ and $`(1-T)^8`$. At 193 the trace is zero and the denominator is $`(1-T^2)^4`$. The proof also inverts a general signed integer-norm sequence, including the overlapping contributions at even norms. The five rational primes omitted from the race are treated separately using the character frame. [Three-score examples](evidence/finite-samples.tsv) · [Arithmetic scope](PROOF.md#which-euler-factor-is-recovered)
